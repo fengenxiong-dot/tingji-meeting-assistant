@@ -1,0 +1,6 @@
+.record-topline{display:flex;align-items:center;justify-content:space-between;gap:10px}
+.scenario-tag{border:1px solid #d9e2d2;background:#f1f5ec;color:#69805d;border-radius:999px;padding:3px 8px;font-size:10px;white-space:nowrap}
+.scenario-tag.interview{background:#f8eee9;border-color:#ecd9cf;color:#a2634f}
+.recording-event{display:flex;align-items:center;justify-content:center;color:#93a083;font-size:10px;letter-spacing:1px;margin:16px 0}
+.metadata select{width:100%;font-size:12px}
+.mic-controls select#scenario{max-width:130px}

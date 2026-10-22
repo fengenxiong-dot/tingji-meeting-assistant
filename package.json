@@ -1,0 +1,45 @@
+{
+  "name": "tingjijun",
+  "version": "0.2.1",
+  "main": "desktop/main.cjs",
+  "description": "本地会议记录与知识助手",
+  "author": "Tingjijun",
+  "build": {
+    "appId": "local.tingjijun.desktop",
+    "productName": "听记君",
+    "files": [
+      "desktop/**/*",
+      "lib/**/*",
+      "public/**/*",
+      "server.js",
+      "package.json"
+    ],
+    "win": {
+      "target": "portable",
+      "signAndEditExecutable": false
+    },
+    "asar": true
+  },
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24.0.0"
+  },
+  "scripts": {
+    "start": "node server.js",
+    "desktop": "electron .",
+    "build:win": "electron-builder --win portable --x64",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "docx": "^9.7.1",
+    "dompurify": "^3.4.15",
+    "marked": "^18.0.13",
+    "ws": "^8.18.3"
+  },
+  "devDependencies": {
+    "electron": "^44.3.0",
+    "electron-builder": "^26.15.3"
+  },
+  "license": "MIT"
+}
