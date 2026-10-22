@@ -28,7 +28,6 @@
 | [人才盘点评价系统](https://github.com/fengenxiong-dot/talent-assessment) | 把评价对象、评价关系、评分和进度集中管理，为人才盘点提供过程数据。 |
 | [钉钉企业 AI 助手](https://github.com/fengenxiong-dot/dingtalk-ai-assistant) | 让员工在熟悉的钉钉单聊入口中使用 AI，并管理会话、图片任务与用量。 |
 | [听记测验互动卡片 · 钉钉培训测验](https://github.com/fengenxiong-dot/dingtalk-quiz-card) | 把培训内容整理成测验，让学员在钉钉卡片中答题，并查看参与率和知识薄弱点。 |
-
 | [活动奖品库存看板](https://github.com/fengenxiong-dot/prize-pool-tracker) | 编辑奖池、点击扣减库存与大屏展示。 |
 | [运动积分查询看板](https://github.com/fengenxiong-dot/activity-points-dashboard) | 按姓名查询分项积分、月度变化与活动资格提示，附虚构样例。 |
 | [我说你猜 AI 版](https://github.com/fengenxiong-dot/ai-guessing-game) | 成语描述与 AI 对话，辅助培训破冰与表达练习。 |
